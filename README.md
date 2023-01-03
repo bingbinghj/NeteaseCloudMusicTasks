@@ -673,13 +673,13 @@ docker exec -it qinglong bash
 ### 拉取代码
 
 ```shell
-ql repo https://github.com/chen310/NeteaseCloudMusicTasks.git "index.py" "" "py"
+ql repo https://github.com/bingbinghj/NeteaseCloudMusicTasks.git "index.py" "" "py"
 ```
 
 ### 更新配置文件
 
 ```shell
-task chen310_NeteaseCloudMusicTasks/ql_update.py
+task bingbinghj_NeteaseCloudMusicTasks/ql_update.py
 ```
 
 ### 安装依赖
@@ -711,13 +711,13 @@ docker exec -it qinglong bash
 然后更新代码
 
 ```shell
-ql repo https://github.com/chen310/NeteaseCloudMusicTasks.git "index.py" "" "py"
+ql repo https://github.com/bingbinghj/NeteaseCloudMusicTasks.git "index.py" "" "py"
 ```
 
 再更新配置文件
 
 ```shell
-task chen310_NeteaseCloudMusicTasks/ql_update.py
+task bingbinghj_NeteaseCloudMusicTasks/ql_update.py
 ```
 
 每次更新完代码后一定要更新配置文件，否则可能会出错
