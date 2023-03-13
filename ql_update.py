@@ -15,7 +15,7 @@ def writeSha(path, file):
 
 
 if __name__ == "__main__":
-    github_url = 'https://github.com/chen310/NeteaseCloudMusicTasks.git'
+    github_url = 'https://github.com/bingbinghj/NeteaseCloudMusicTasks.git'
 
     if os.path.exists('/ql/data/scripts/bingbinghj_NeteaseCloudMusicTasks'):
         data_path = '/ql/data/'
